@@ -1,0 +1,26 @@
+{
+
+  "scripts": {
+
+    "build": "npx tsc"
+
+  },
+
+  "devDependencies": {
+
+    "script": "^0.1.4",
+
+    "type": "^2.6.0"
+
+  },
+
+  "dependencies": {
+
+    "@types/lodash": "^4.14.182",
+
+    "lodash": "^4.17.21"
+
+  }
+
+}
+

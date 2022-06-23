@@ -1,0 +1,13 @@
+"save-dev" : save as a only development package 
+        $ npm i module - name // install module to dependencies
+        $ npm i--save - dev module - name // install to dev dependencies
+        $ npm i--save - dev module - name@1.19 // install a specific version (1.19 here) of module
+
+"npm"   :
+            * means that you'll accept all updates
+    ^ means that you'll only accept minor releases
+~means that you'll only accept patch releases
+    >, >=, <=, < are also valid for saying you'll accept versions greater/less/equal to the listed 
+
+
+        ** It is best practice to add package - lock.json as well as ./ node_modules to your.gitignore 
