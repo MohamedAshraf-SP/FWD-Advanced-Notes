@@ -36,7 +36,7 @@ const router= express.Router()
 const app = express();
 const port = 3000;
 
-app.use(api)
+app.use('/',api)
 
 // start the Express server
 app.listen(port, () => {
